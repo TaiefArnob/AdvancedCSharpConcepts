@@ -94,6 +94,14 @@ class Program
             FileOperations ob2 = new FileOperations();
             ob2.createFile();
             ob2.addContentOnFile();
+
+            NonGenericCollections ob3 = new NonGenericCollections();
+            ob3.ArrayListFunc();
+
+            MyDelegate del;
+            DelegateExample obj3 = new DelegateExample();
+            obj3.SayHello("Taief");
+            obj3.SayGoodbye("Taief");
         }
     }
 }
